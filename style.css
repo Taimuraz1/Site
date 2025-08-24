@@ -4,12 +4,44 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 55px;
     margin-top: 30px;
 }
 
 .Menu li a {
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best-car {
+    margin-top: 40px;         /* отступ сверху, чтобы блок был ниже меню */
+    margin-left: 40px;
+}
+
+.card {
+    width: 320px;
+    border: 2px solid #333;   /* рамка */
+    border-radius: 12px;      /* скруглённые углы */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* тень для красоты */
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card p {
+    font-size: 20px;
+    color: #555;
 }
