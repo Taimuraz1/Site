@@ -10,14 +10,15 @@
 
 .Menu li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Карточка лучшего авто номер 1 */
 .best-car {
-    margin-top: 40px;         /* отступ сверху, чтобы блок был ниже меню */
-    margin-left: 40px;
+    margin-top: 40px;    
+    margin-left: 70px;
 }
 
 .card {
@@ -27,7 +28,6 @@
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* тень для красоты */
-    background: #fff;
 }
 
 .card img {
@@ -44,4 +44,61 @@
 .card p {
     font-size: 20px;
     color: #555;
+}
+
+/* Карточка авто номер 2 */
+.best-car2 {
+    margin-top: 40px;    
+}
+
+.card2 {
+    width: 320px;
+    border: 2px solid #333;   /* рамка */
+    border-radius: 12px;      /* скруглённые углы */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* тень для красоты */
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card2 h2 {
+    margin: 10px 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card2 p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Правая колонка */
+.rightMenu {
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.rightMenu ul {
+    list-style: none;
+}
+
+.rightMenu li {
+    margin-bottom: 15px;
+}
+
+.rightMenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-wrapper {
+    display: flex;      /* включаем flex-контейнер */
+    gap: 30px;
+    margin: 40px;
 }
