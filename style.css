@@ -18,7 +18,7 @@
 /* Карточка лучшего авто номер 1 */
 .best-car {
     margin-top: 40px;    
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .card {
@@ -74,27 +74,6 @@
 .card2 p {
     font-size: 20px;
     color: #555;
-}
-
-/* Правая колонка */
-.rightMenu {
-    padding: 20px;
-    padding-left: 10px;
-}
-
-.rightMenu ul {
-    list-style: none;
-}
-
-.rightMenu li {
-    margin-bottom: 15px;
-}
-
-.rightMenu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content-wrapper {
